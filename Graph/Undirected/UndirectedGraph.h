@@ -13,7 +13,7 @@ using namespace std;
 
 class UndirectedGraph {
 private:
-    vector<vector<int>> adjList;
+    vector< vector<int> > adjList;
 
 public:
     explicit UndirectedGraph(int c);

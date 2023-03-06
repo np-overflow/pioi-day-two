@@ -15,8 +15,8 @@ class Dictionary {
 private:
     int size;
     static const int MAX_SIZE = 100;
-    string keys[MAX_SIZE]{};
-    int values[MAX_SIZE]{};
+    string keys[MAX_SIZE];
+    int values[MAX_SIZE];
 
 public:
     Dictionary();

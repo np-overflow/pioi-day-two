@@ -15,8 +15,8 @@ const int SIZE = 10;
 
 class HashTable_OALP { // OALP: Open Addressing - Linear Probing
 private:
-    int keys[SIZE]{};
-    string values[SIZE]{};
+    int keys[SIZE];
+    string values[SIZE];
 
 public:
     HashTable_OALP();

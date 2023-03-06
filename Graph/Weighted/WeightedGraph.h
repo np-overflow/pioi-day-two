@@ -20,7 +20,7 @@ struct Edge {
 
 class WeightedGraph {
 private:
-    vector<vector<Edge>> adjList;
+    vector< vector<Edge> > adjList;
 
 public:
     explicit WeightedGraph(int c);

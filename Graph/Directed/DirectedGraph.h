@@ -13,7 +13,7 @@ using namespace std;
 
 class DirectedGraph {
 private:
-    vector<vector<int>> adjList;
+    vector< vector<int> > adjList;
 
 public:
     explicit DirectedGraph(int capacity);
