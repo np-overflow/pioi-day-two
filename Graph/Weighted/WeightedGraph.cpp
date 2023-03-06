@@ -13,7 +13,7 @@ void WeightedGraph::addEdge(int src, int dst, int w) {
     adjList[dst].emplace_back(src, w);
 }
 
-vector<pair<int, int>> &WeightedGraph::getNeighbors(int src) {
+vector<Edge> &WeightedGraph::getNeighbors(int src) {
     return adjList[src];
 }
 
@@ -34,10 +34,10 @@ int weighted_graph_main() {
 
     for (int i = 0; i < capacity; i++) {
         cout << "Neighbors of vertex " << i << ": ";
-        vector<pair<int, int>> neighbors = graph.getNeighbors(i);
+        vector<Edge> neighbors = graph.getNeighbors(i);
 
-        for (pair<int, int> neighbor: neighbors) {
-            cout << neighbor.first << " (weight " << neighbor.second << ") ";
+        for (Edge neighbor: neighbors) {
+            cout << neighbor.node << " (weight " << neighbor.weight << ") ";
         }
         cout << endl;
     }

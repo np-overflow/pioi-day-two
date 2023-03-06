@@ -11,16 +11,23 @@
 
 using namespace std;
 
+struct Edge {
+    int node;
+    int weight;
+
+    Edge(int node, int weight) : node(node), weight(weight) {}
+};
+
 class WeightedGraph {
 private:
-    vector<vector<pair<int, int>>> adjList;
+    vector<vector<Edge>> adjList;
 
 public:
     explicit WeightedGraph(int c);
 
     void addEdge(int src, int dst, int w);
 
-    vector<pair<int, int>> &getNeighbors(int src);
+    vector<Edge> &getNeighbors(int src);
 
     size_t getNumVertices();
 };
