@@ -10,7 +10,7 @@
 		{
 			"type": "shell",
 			"label": "CMake: build and run",
-			"command": "cmake -B ${workspaceFolder}/build && cd build && make && ./PIOI_Workshop",
+			"command": "cmake -B ${workspaceFolder}/build && cd build && make && ./main",
 			"detail": "CMake build and run"
 		}
 	]
