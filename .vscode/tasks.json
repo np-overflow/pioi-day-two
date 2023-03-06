@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "CMake: build",
+			"command": "cmake -B ${workspaceFolder}/build && cd build && make",
+			"detail": "CMake build task"
+		},
+		{
+			"type": "shell",
+			"label": "CMake: build and run",
+			"command": "cmake -B ${workspaceFolder}/build && cd build && make && ./PIOI_Workshop",
+			"detail": "CMake build and run"
+		}
+	]
+}
