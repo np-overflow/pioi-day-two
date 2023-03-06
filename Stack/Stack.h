@@ -1,0 +1,1 @@
+int stack_main();
