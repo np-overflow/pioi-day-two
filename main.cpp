@@ -2,6 +2,7 @@
 #include "Graph/Directed/DirectedGraph.h"
 #include "Graph/Undirected/UndirectedGraph.h"
 #include "Graph/Weighted/WeightedGraph.h"
+#include "HashTable/OpenAddressing/HashTable_OALP.h"
 
 using namespace std;
 
@@ -11,6 +12,7 @@ int main() {
     directed_graph_main();
     undirected_graph_main();
     weighted_graph_main();
+    hash_table_oalp_main();
 
     return 0;
 }
