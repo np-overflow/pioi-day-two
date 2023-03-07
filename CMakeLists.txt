@@ -3,7 +3,7 @@ project(PIOI_Workshop)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(PIOI_Workshop 
+add_executable(main 
     main.cpp 
     Graph/Directed/DirectedGraph.cpp 
     Graph/Directed/DirectedGraph.h 

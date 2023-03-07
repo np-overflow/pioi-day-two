@@ -11,10 +11,6 @@
 
 #include "HashTable/OpenAddressing/HashTable_OALP.h"
 #include "Map/Dictionary/Dictionary.h"
-#include "LinkedList/Singly-LinkedList/SinglyLinkedList.h"
-#include "LinkedList/Doubly-LinkedList/DoublyLinkedList.h"
-#include "Stack/Stack.h"
-#include "Queue/Queue.h"
 
 using namespace std;
 
