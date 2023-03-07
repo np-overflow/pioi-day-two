@@ -4,6 +4,10 @@
 #include "Graph/Weighted/WeightedGraph.h"
 #include "HashTable/OpenAddressing/HashTable_OALP.h"
 #include "Map/Dictionary/Dictionary.h"
+#include "LinkedList/Singly-LinkedList/SinglyLinkedList.h"
+#include "LinkedList/Doubly-LinkedList/DoublyLinkedList.h"
+#include "Stack/Stack.h"
+#include "Queue/Queue.h"
 
 using namespace std;
 
@@ -15,6 +19,9 @@ int main() {
     weighted_graph_main();
     hash_table_oalp_main();
     dictionary_main();
-
+    singly_linked_list_main();
+    doubly_linked_list_main();
+    stack_main();
+    queue_main();
     return 0;
 }
