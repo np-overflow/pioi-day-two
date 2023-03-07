@@ -12,6 +12,8 @@
 #include "HashTable/OpenAddressing/HashTable_OALP.h"
 #include "Map/Dictionary/Dictionary.h"
 
+#include "Tree/BST/BST.h"
+
 using namespace std;
 
 int main() {
@@ -26,5 +28,6 @@ int main() {
     doubly_linked_list_main();
     stack_main();
     queue_main();
+    BST_main();
     return 0;
 }
