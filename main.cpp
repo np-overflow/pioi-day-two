@@ -1,7 +1,14 @@
 #include <iostream>
+#include "LinkedList/Singly-LinkedList/SinglyLinkedList.h"
+#include "LinkedList/Doubly-LinkedList/DoublyLinkedList.h"
+
+#include "Queue/Queue.h"
+#include "Stack/Stack.h"
+
 #include "Graph/Directed/DirectedGraph.h"
 #include "Graph/Undirected/UndirectedGraph.h"
 #include "Graph/Weighted/WeightedGraph.h"
+
 #include "HashTable/OpenAddressing/HashTable_OALP.h"
 #include "Map/Dictionary/Dictionary.h"
 #include "LinkedList/Singly-LinkedList/SinglyLinkedList.h"
