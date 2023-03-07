@@ -58,38 +58,5 @@ void SinglyLinkedList::print() {
 }
 
 int singly_linked_list_main() {
-    SinglyLinkedList list;
 
-    // add elements
-    list.add("1");
-    list.add("2");
-    list.add("3");
-    list.add("4");
-    list.add("5");
-
-    // print the list
-    list.print();
-
-    // insert an element at index 2
-    list.add(2, "6");
-
-    // print the list again
-    list.print();
-
-    // remove an element at index 4
-    list.remove(4);
-
-    // print the list again
-    list.print();
-
-    // get the element at index 3 and print it
-    cout << list.get(3) << endl;
-
-    // print the length of the list
-    cout << list.getLength() << endl;
-
-    // check if the list is empty
-    cout << boolalpha << list.isEmpty() << endl;
-
-    return 0;
 }
