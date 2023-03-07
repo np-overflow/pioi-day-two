@@ -25,4 +25,8 @@ add_executable(main
     Queue/Queue.h
     "Tree/BST/BST.cpp" 
     "Tree/BST/BST.h" 
-    "Tree/BST/BinaryNode.h")
+    "Tree/BST/BinaryNode.h" 
+    "Array/Array/Array.cpp" 
+    "Array/Array/Array.h" 
+    "Array/ND-Array/NDArray.h" 
+    "Array/ND-Array/NDArray.cpp")
